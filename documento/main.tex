@@ -1,0 +1,81 @@
+% Template:     Informe LaTeX
+% Documento:    Archivo principal
+% Versión:      8.2.6 (06/07/2023)
+% Codificación: UTF-8
+%
+% Autor: Pablo Pizarro R.
+%        pablo@ppizarror.com
+%
+% Manual template: [https://latex.ppizarror.com/informe]
+% Licencia MIT:    [https://opensource.org/licenses/MIT]
+
+% CREACIÓN DEL DOCUMENTO
+\documentclass[
+	spanish, % Idioma: spanish, english, etc.
+	letterpaper, oneside
+]{article}
+
+% INFORMACIÓN DEL DOCUMENTO
+\def\documenttitle {Pipeline 3D $\longrightarrow {}$ 2D}
+\def\documentsubtitle {}
+\def\documentsubject {Modelo 3D a Pixel Art}
+
+\def\documentauthor {}
+\def\coursename {Modelación y Computación Gráfica para Ingenieros}
+\def\coursecode {CC3502-2}
+
+\def\universityname {Universidad de Chile}
+\def\universityfaculty {Facultad de Ciencias Físicas y Matemáticas}
+\def\universitydepartment {Departamento de Ciencias de la Computación}
+\def\universitydepartmentimage {departamentos/dcc2}
+\def\universitydepartmentimagecfg {height=1.57cm}
+\def\universitylocation {Santiago de Chile}
+
+% INTEGRANTES, PROFESORES Y FECHAS
+\def\authortable {
+	\begin{tabular}{ll}
+		Autor:
+		& \begin{tabular}[t]{l}
+		    Martín Molina	
+		\end{tabular} \\
+		Profesor:
+		& \begin{tabular}[t]{l}
+		    Patricio Inostroza	
+		\end{tabular} \\
+		Auxiliares:
+		& \begin{tabular}[t]{l}
+		    Elías Moreno Vergara \\
+            Francisco Ortiz
+		\end{tabular} \\
+		Ayudantes:
+		& \begin{tabular}[t]{l}
+            Javiera Labrín A. \\
+             Diego Navarrete Gonzalez
+		\end{tabular} \\
+	\end{tabular}
+}
+
+% IMPORTACIÓN DEL TEMPLATE
+\input{template}
+
+% INICIO DE PÁGINAS
+\begin{document}
+
+% PORTADA
+\templatePortrait
+
+% CONFIGURACIÓN DE PÁGINA Y ENCABEZADOS
+\templatePagecfg
+
+% TABLA DE CONTENIDOS - ÍNDICE
+\templateIndex
+
+% CONFIGURACIONES FINALES
+\templateFinalcfg
+
+% ======================= INICIO DEL DOCUMENTO =======================
+
+\input{example} % Ejemplo, se puede borrar
+
+% FIN DEL DOCUMENTO
+\end{document}
