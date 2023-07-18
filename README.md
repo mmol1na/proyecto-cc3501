@@ -21,6 +21,6 @@ Tecla             | Accion
 
 ### Cosas adicionales 
 
-- [Efecto CRT](https://godotshaders.com/shader/vhs-and-crt-monitor-effect/)]
-- [The Models Resource](https://www.models-resource.com/)]
+- [Efecto CRT](https://godotshaders.com/shader/vhs-and-crt-monitor-effect/)
+- [The Models Resource](https://www.models-resource.com/)
 
