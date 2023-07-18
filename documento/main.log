@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.16)  18 JUL 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.16)  18 JUL 2023 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2358,55 +2358,55 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] (./example.tex [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <8.00006> on input line 56.
+LaTeX Font Info:    Calculating math sizes for size <8.00006> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.00006> on input line 56.
+(Font)              <8.00006> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.6> on input line 56.
+(Font)              <5.6> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.00003> on input line 56.
+(Font)              <4.00003> on input line 62.
  [2
 
 ]
-<img/elprograma.png, id=76, 1150.2975pt x 647.41875pt>
+<img/elprograma.png, id=78, 1150.2975pt x 647.41875pt>
 File: img/elprograma.png Graphic file (type png)
 <use img/elprograma.png>
-Package pdftex.def Info: img/elprograma.png  used on input line 88.
+Package pdftex.def Info: img/elprograma.png  used on input line 94.
 (pdftex.def)             Requested size: 369.88582pt x 208.17598pt.
-<img/peranormal.png, id=78, 1150.2975pt x 647.41875pt>
+<img/peranormal.png, id=80, 1150.2975pt x 647.41875pt>
 File: img/peranormal.png Graphic file (type png)
 <use img/peranormal.png>
-Package pdftex.def Info: img/peranormal.png  used on input line 91.
+Package pdftex.def Info: img/peranormal.png  used on input line 97.
 (pdftex.def)             Requested size: 369.88582pt x 208.17598pt.
-<img/perapixelart.png, id=79, 1150.2975pt x 647.41875pt>
+<img/perapixelart.png, id=81, 1150.2975pt x 647.41875pt>
 File: img/perapixelart.png Graphic file (type png)
 <use img/perapixelart.png>
-Package pdftex.def Info: img/perapixelart.png  used on input line 94.
+Package pdftex.def Info: img/perapixelart.png  used on input line 100.
 (pdftex.def)             Requested size: 369.88582pt x 208.17598pt.
  [3
 
  <./img/elprograma.png> <./img/peranormal.png>]
-<img/perapixelartcrt.png, id=87, 1150.2975pt x 647.41875pt>
+<img/perapixelartcrt.png, id=89, 1150.2975pt x 647.41875pt>
 File: img/perapixelartcrt.png Graphic file (type png)
 <use img/perapixelartcrt.png>
-Package pdftex.def Info: img/perapixelartcrt.png  used on input line 97.
+Package pdftex.def Info: img/perapixelartcrt.png  used on input line 103.
 (pdftex.def)             Requested size: 369.88582pt x 208.17598pt.
 ) (/usr/share/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 ) [4 <./img/perapixelart.png> <./img/perapixelartcrt.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 32923 strings out of 477985
- 552085 string characters out of 5840058
- 1860388 words of memory out of 5000000
- 52466 multiletter control sequences out of 15000+600000
+ 32925 strings out of 477985
+ 552100 string characters out of 5840058
+ 1861388 words of memory out of 5000000
+ 52467 multiletter control sequences out of 15000+600000
  607713 words of font info for 144 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  113i,16n,109p,17364b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (6 pages, 1300760 bytes).
+Output written on main.pdf (6 pages, 1301140 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
