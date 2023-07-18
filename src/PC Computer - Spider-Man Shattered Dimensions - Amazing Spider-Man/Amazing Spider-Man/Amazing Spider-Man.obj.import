@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvoeem26tpc7d"
+path="res://.godot/imported/Amazing Spider-Man.obj-6f2f0fb84595f788dd2a17539e2727ea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Amazing Spider-Man.obj-6f2f0fb84595f788dd2a17539e2727ea.mesh"]
+
+source_file="res://PC Computer - Spider-Man Shattered Dimensions - Amazing Spider-Man/Amazing Spider-Man/Amazing Spider-Man.obj"
+dest_files=["res://.godot/imported/Amazing Spider-Man.obj-6f2f0fb84595f788dd2a17539e2727ea.mesh", "res://.godot/imported/Amazing Spider-Man.obj-6f2f0fb84595f788dd2a17539e2727ea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

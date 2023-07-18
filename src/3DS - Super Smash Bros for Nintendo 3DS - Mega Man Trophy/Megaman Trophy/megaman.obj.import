@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://83jk210so80b"
+path="res://.godot/imported/megaman.obj-cafdb2aa48ff8d89532dddd76b54feac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/megaman.obj-cafdb2aa48ff8d89532dddd76b54feac.mesh"]
+
+source_file="res://3DS - Super Smash Bros for Nintendo 3DS - Mega Man Trophy/Megaman Trophy/megaman.obj"
+dest_files=["res://.godot/imported/megaman.obj-cafdb2aa48ff8d89532dddd76b54feac.mesh", "res://.godot/imported/megaman.obj-cafdb2aa48ff8d89532dddd76b54feac.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

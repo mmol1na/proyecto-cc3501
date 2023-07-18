@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cme0tufdlgiae"
+path="res://.godot/imported/lilo.obj-5228110391b149ae2327298fafc58d4a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lilo.obj-5228110391b149ae2327298fafc58d4a.mesh"]
+
+source_file="res://Lilo/lilo.obj"
+dest_files=["res://.godot/imported/lilo.obj-5228110391b149ae2327298fafc58d4a.mesh", "res://.godot/imported/lilo.obj-5228110391b149ae2327298fafc58d4a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

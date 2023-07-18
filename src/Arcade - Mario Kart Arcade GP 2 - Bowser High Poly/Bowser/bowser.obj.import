@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d02bp0v3o8kju"
+path="res://.godot/imported/bowser.obj-fe25a3ef95d389d39c77bafcc701d031.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bowser.obj-fe25a3ef95d389d39c77bafcc701d031.mesh"]
+
+source_file="res://Arcade - Mario Kart Arcade GP 2 - Bowser High Poly/Bowser/bowser.obj"
+dest_files=["res://.godot/imported/bowser.obj-fe25a3ef95d389d39c77bafcc701d031.mesh", "res://.godot/imported/bowser.obj-fe25a3ef95d389d39c77bafcc701d031.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

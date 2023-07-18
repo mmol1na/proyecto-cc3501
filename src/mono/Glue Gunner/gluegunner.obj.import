@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csn86gflucdfy"
+path="res://.godot/imported/gluegunner.obj-9b9688c86e29608e62441767692c64ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gluegunner.obj-9b9688c86e29608e62441767692c64ce.mesh"]
+
+source_file="res://PC Computer - Bloons TD 6 - Glue Gunner/Glue Gunner/gluegunner.obj"
+dest_files=["res://.godot/imported/gluegunner.obj-9b9688c86e29608e62441767692c64ce.mesh", "res://.godot/imported/gluegunner.obj-9b9688c86e29608e62441767692c64ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

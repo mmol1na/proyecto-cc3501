@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clv813m6o1ejw"
+path="res://.godot/imported/pair_of_pears.obj-1b80a44e5fd4d548d2e13555cf6d8137.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pair_of_pears.obj-1b80a44e5fd4d548d2e13555cf6d8137.mesh"]
+
+source_file="res://Custom Edited - Plants vs Zombies Customs - Pair of Pears/PvZ Heros Pair of Pears/pair_of_pears.obj"
+dest_files=["res://.godot/imported/pair_of_pears.obj-1b80a44e5fd4d548d2e13555cf6d8137.mesh", "res://.godot/imported/pair_of_pears.obj-1b80a44e5fd4d548d2e13555cf6d8137.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

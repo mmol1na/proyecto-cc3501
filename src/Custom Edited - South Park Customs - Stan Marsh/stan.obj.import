@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdjcy0fbe8cov"
+path="res://.godot/imported/stan.obj-ca1aae734b23271ab00c3e9bf23c4112.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stan.obj-ca1aae734b23271ab00c3e9bf23c4112.mesh"]
+
+source_file="res://Custom Edited - South Park Customs - Stan Marsh/stan.obj"
+dest_files=["res://.godot/imported/stan.obj-ca1aae734b23271ab00c3e9bf23c4112.mesh", "res://.godot/imported/stan.obj-ca1aae734b23271ab00c3e9bf23c4112.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

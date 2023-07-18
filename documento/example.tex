@@ -1,0 +1,99 @@
+% Template:     Informe LaTeX
+% Documento:    Archivo de ejemplo
+% Versión:      8.2.6 (06/07/2023)
+% Codificación: UTF-8
+%
+% Autor: Pablo Pizarro R.
+%        pablo@ppizarror.com
+%
+% Manual template: [https://latex.ppizarror.com/informe]
+% Licencia MIT:    [https://opensource.org/licenses/MIT]
+
+% ------------------------------------------------------------------------------
+% NUEVA SECCIÓN
+% ------------------------------------------------------------------------------
+% Las secciones se inician con \section, si se quiere una sección sin número se
+% pueden usar las funciones \sectionanum (sección sin número) o la función
+% \sectionanumnoi para crear el mismo título sin numerar y sin aparecer en el índice
+\section{Herramientas utilizadas}
+\subsection{Godot}
+        ``Godot Engine es un motor de juegos multiplataforma repleto de funciones para crear
+        juegos en 2D y 3D desde una interfaz unificada. Ofrece un completo conjunto de herramientas comunes, para que los usuarios
+        puedan centrarse en crear juegos sin tener que reinventar la rueda. Los juegos se pueden exportar con
+        un solo clic a varias plataformas, incluidas las principales plataformas de escritorio (Linux, macOS, Windows),
+        plataformas móviles (Android, iOS), así como plataformas basadas en web y consolas.'' (Extraido de su pagina en GitHub) \\
+
+        Godot fue el único programa que utilicé para hacer mi proyecto, ya que viene muy bien integrado con todo lo que necesitaba, 
+        tiene su propio lenguaje para shaders y scripts, una interfaz muy simple para alguien que está recien aprendiendo,
+        pero la verdadera razón por la que escogí a Godot es por su excelente soporte en Linux (sistema operativo que utilizo principalmente). \\
+
+        Fue una experiencia muy grata utilizar este programa aunque si bien hay muchisimos más tutoriales para Unity fue sencillo encontrar todo
+        lo que necesitaba.
+        
+\subsection{The Models Resource}
+        The Models Resource fue la pagina web principal de donde conseguía los modelos para mi programa,
+        y basicamente consiste en una web donde un grupo de aficionados van recompilando modelos de videojuegos
+        tanto antiguos como nuevos y los hacen públicos. \\
+
+        Mi programa solo ha sido probado con modelos de este sitio web.  
+
+\subsection{Firefox}
+        Y bueno obviamente utilicé un navegador para buscar recursos, documentación y tutoriales.
+
+\clearpage
+
+
+
+\section{Objetivos del proyecto}
+
+% SUB-SECCIÓN
+% Las sub-secciones se inician con \subsection, si se quiere una sub-sección
+% sin número se pueden usar las funciones \subsectionanum (nuevo subtítulo sin
+% numeración) o la función \subsectionanumnoi para crear el mismo subtítulo sin
+% numerar y sin aparecer en el índice
+\subsection{Objetivos Propuestos}
+	\begin{itemize}
+	   \item Aprender a utilizar algun programa relacionado a la grafica (Godot o Unity).
+	   \item Desarrollar un pipeline que lleve un modelo 3D a Pixel Art de manera simple y sencilla.
+	   \item Lograr tambien limitar las paletas de colores de los modelos 3D.
+       \item Lograr aplicar paletas de colores limitadas para así emular aún mejor el efecto de consolas antiguas.
+	\end{itemize}
+
+
+\subsection{Objetivos Logrados}
+	\begin{itemize}
+        \item Aprendí a utilizar de manera comóda Godot 4.
+        \item Aprendí como funcionan los shaders de Godot.
+        \item Logré hacer un programa que recibe un modelo 3D y lo transforma a Pixel Art.
+        \item Logré limitar la paleta de color de cada modelo para lograr un efecto realista.
+	\end{itemize}
+
+\subsection{Objetivos No Logrados}
+	\begin{itemize}
+        \item No logré aplicar paletas de colores personalizadas para cada modelo, pues se me complicó la programación del shader.
+	\end{itemize}
+
+\subsection{Adicional}
+	\begin{itemize}
+        \item Logré aplicar un shader que emula el efecto de las pantallas CRT.
+        \item Decoré un poco el programa con una font bonita.
+	\end{itemize}
+% SUB-SECCIÓN
+\clearpage
+\section{Pantallazos}
+
+\subsection{Interfaz del programa}
+
+Allí se muestra los efectos que pude lograr y el boton para cargar un modelo 3D.
+\insertimage[]{img/elprograma.png}{width=13cm}{Interfaz del programa sin cargar ningun modelo 3D.}
+
+\subsection{Cargar un modelo 3D}
+\insertimage[]{img/peranormal.png}{width=13cm}{Programa con un modelo 3D cargado sin efectos.}
+
+\subsection{Efecto Pixel Art}
+\insertimage[]{img/perapixelart.png}{width=13cm}{Programa con un modelo 3D con el efecto Pixel Art aplicado.}
+
+\subsection{Efecto Pixel Art + Efecto CRT}
+\insertimage[]{img/perapixelartcrt.png}{width=13cm}{Programa con un modelo 3D con el efecto Pixel Art y el efecto de CRT aplicado.}
+
+

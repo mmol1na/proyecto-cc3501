@@ -1,0 +1,163 @@
+[gd_scene load_steps=8 format=3 uid="uid://calc5uwek0snf"]
+
+[ext_resource type="Shader" path="res://Shaders/pixelart.gdshader" id="1_lnul3"]
+[ext_resource type="Script" path="res://Scripts/pixel_size.gd" id="1_x8vcu"]
+[ext_resource type="Script" path="res://Scripts/toggle_pixelart.gd" id="2_01uhq"]
+[ext_resource type="Shader" path="res://CRT.gdshader" id="2_t3fy8"]
+[ext_resource type="FontFile" uid="uid://611bsl45u6h5" path="res://Fonts/using_fonts_monospace_bitmap_font_example.webp" id="4_vjufo"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_o0s28"]
+shader = ExtResource("2_t3fy8")
+shader_parameter/overlay = false
+shader_parameter/scanlines_opacity = 0.4
+shader_parameter/scanlines_width = 0.25
+shader_parameter/grille_opacity = 0.123
+shader_parameter/resolution = Vector2(640, 480)
+shader_parameter/pixelate = true
+shader_parameter/roll = true
+shader_parameter/roll_speed = 8.0
+shader_parameter/roll_size = 8.077
+shader_parameter/roll_variation = 3.27
+shader_parameter/distort_intensity = 0.012
+shader_parameter/noise_opacity = 0.262
+shader_parameter/noise_speed = 5.0
+shader_parameter/static_noise_intensity = 0.037
+shader_parameter/aberration = -0.00999995
+shader_parameter/brightness = 1.4
+shader_parameter/discolor = false
+shader_parameter/warp_amount = 1.0
+shader_parameter/clip_warp = true
+shader_parameter/vignette_intensity = 0.4
+shader_parameter/vignette_opacity = 0.299
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5ta6a"]
+shader = ExtResource("1_lnul3")
+shader_parameter/pixel_size = 4.0
+shader_parameter/n_colores = 4.0
+shader_parameter/spread_size = 0.0
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_x8vcu")
+
+[node name="CRTLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="CRT" type="ColorRect" parent="CRTLayer"]
+visible = false
+material = SubResource("ShaderMaterial_o0s28")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Sliders" type="Node2D" parent="CanvasLayer"]
+
+[node name="Pixeles" type="Label" parent="CanvasLayer/Sliders"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 36.0
+theme_override_fonts/font = ExtResource("4_vjufo")
+text = "Division de pixel: "
+
+[node name="Colores" type="Label" parent="CanvasLayer/Sliders"]
+offset_left = 10.0
+offset_top = 58.0
+offset_right = 330.0
+offset_bottom = 84.0
+theme_override_fonts/font = ExtResource("4_vjufo")
+text = "Cantidad de colores:"
+
+[node name="pixelButton" type="OptionButton" parent="CanvasLayer/Sliders"]
+offset_left = 305.0
+offset_top = 6.0
+offset_right = 412.0
+offset_bottom = 37.0
+theme_override_fonts/font = ExtResource("4_vjufo")
+item_count = 5
+selected = 0
+popup/item_0/text = "1.0"
+popup/item_0/id = 0
+popup/item_1/text = "2.0"
+popup/item_1/id = 1
+popup/item_2/text = "4.0"
+popup/item_2/id = 2
+popup/item_3/text = "8.0"
+popup/item_3/id = 3
+popup/item_4/text = "16.0"
+popup/item_4/id = 4
+
+[node name="SliderColores" type="HSlider" parent="CanvasLayer/Sliders"]
+offset_left = 11.0
+offset_top = 84.0
+offset_right = 320.0
+offset_bottom = 100.0
+min_value = 2.0
+max_value = 24.0
+value = 2.0
+rounded = true
+
+[node name="PixelartLabel" type="Label" parent="CanvasLayer/Sliders"]
+offset_left = 376.0
+offset_top = 558.0
+offset_right = 712.0
+offset_bottom = 611.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_vjufo")
+theme_override_font_sizes/font_size = 5
+text = "PIXEL ART EFFECT: OFF"
+vertical_alignment = 1
+
+[node name="CRTLabel" type="Label" parent="CanvasLayer/Sliders"]
+offset_left = 900.0
+offset_top = 12.0
+offset_right = 1140.0
+offset_bottom = 35.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_vjufo")
+text = "CRT FILTER: OFF"
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="CanvasLayer"]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 4.37114e-07, 3, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="CanvasLayer"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 1.5, -5)
+
+[node name="Camera3D" type="Camera3D" parent="CanvasLayer"]
+transform = Transform3D(-0.997729, 0, -0.0673536, 0, 1, 0, 0.0673536, 0, -0.997729, 0, 1.5, -5)
+projection = 1
+size = 7.0
+
+[node name="LoadButton" type="Button" parent="CanvasLayer"]
+offset_left = 439.0
+offset_top = 598.0
+offset_right = 655.0
+offset_bottom = 635.0
+theme_override_fonts/font = ExtResource("4_vjufo")
+text = "Load 3D Model"
+
+[node name="FD_Load" type="FileDialog" parent="."]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(539, 400)
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+material = SubResource("ShaderMaterial_5ta6a")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 1, 1, 1)
+script = ExtResource("2_01uhq")
+
+[connection signal="pressed" from="CanvasLayer/LoadButton" to="." method="_on_load_button_pressed"]
+[connection signal="canceled" from="FD_Load" to="." method="_on_fd_load_canceled"]
+[connection signal="file_selected" from="FD_Load" to="." method="_on_fd_load_file_selected"]
